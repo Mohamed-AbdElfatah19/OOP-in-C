@@ -18,5 +18,7 @@ int main(void)
   
   
   
+  free(ps3)  ;
+  
  return 0 ; 
 }
