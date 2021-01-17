@@ -1,3 +1,6 @@
+
+#include<shape.h>
+
 void shape_ctor(Shape *const me , int x0 , int y0 )      
 {
   me->x = x0 ;
