@@ -1,6 +1,10 @@
 #include<shape.h>
+#include<rectangle.h>
+
 
 Shape s1 ; // static allocation
+Rectangle r1 ; // static allocation
+
 
 int main(void)
 {
@@ -16,7 +20,8 @@ int main(void)
   shape_moveBy(&s2,15,12)  ;
   shape_moveBy(s3,-1,5)    ;
   
-  
+  Rectangle_draw(&r1)     ;
+  a = Rectangle_area(&r1) ;
   
   free(ps3)  ;
   
